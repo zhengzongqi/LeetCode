@@ -1,0 +1,6 @@
+LinkedHashMap：用法跟HashMap相似，但是内部的键值对是有顺序的，会记录添加顺序
+
+LinkedHashMap<Integer,Integer> map = new LinkedHashMap<>();
+
+map.put(1,1);  //插入或者更新元素
+map.get(1);  //访问元素，访问后，该元素会被提到map的最前面来
