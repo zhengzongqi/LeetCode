@@ -1,0 +1,13 @@
+
+1.LinkedList类实现了Queue接口，因此我们可以把LinkedList当成Queue来用。
+
+        Queue<String> queue = new LinkedList<String>();  //add()和remove()方法在失败的时候会抛出异常(不推荐)
+
+        queue.offer("a");
+        queue.offer("b");  //添加元素
+
+        System.out.println("poll="+queue.poll()); //返回第一个元素，并在队列中删除
+
+        System.out.println("element="+queue.element()); //返回第一个元素,不删除
+
+        System.out.println("peek="+queue.peek()); //返回第一个元素，不删除

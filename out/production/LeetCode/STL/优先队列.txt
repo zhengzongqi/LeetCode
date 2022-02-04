@@ -1,0 +1,10 @@
+PriorityQueue：队列中元素有序，元素的出队顺序是指定的
+可以使用Comparator来为其指定排序规则：
+            Comparator<Integer> comparator = new Comparator<Integer>(){
+                //负数代表左值小于右值，排在前面
+                //正数代表左值大于右值，排在后面
+                @Override
+                public int compare(Integer c1, Integer c2) {
+                    return (c2 - c1);
+                }
+            };

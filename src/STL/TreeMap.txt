@@ -1,0 +1,55 @@
+Java的TreeMap是集合框架中的一个实现类，TreeMap继承了AbstractMap。
+TreeMap实现了NavigableMap接口，提供了多种方便的查找功能；
+TreeMap实现了Cloneable接口，可以克隆；⭐⭐⭐⭐
+TreeMap实现了Serialiable接口，可以序列化。
+
+构造方法
+TreeMap() 创建一个空的TreeMap，并且按照key的自然升序排序；
+TreeMap(Comparator<? super K> comparator) 创建一个空的TreeMap，并且指定排序方法；
+TreeMap(Map<? extends K, ? extends V> m) 根据给定的Map创建一个TreeMap，按照key的自然升序排序；
+TreeMap(SortedMap<K, ? extends V> m) 根据一个有序的Map创建一个TreeMap，顺序与原Map相同。
+常用方法
+增
+
+⭐⭐⭐⭐public V put(K key, V value) 添加一对键值对
+public void putAll(Map<? extends K, ? extends V> map) 添加一个map的所有键值对
+删
+
+public V remove(Object key) 删除对应的键值对
+public void clear() 删除所有元素
+查
+
+public Map.Entry<K,V> ceilingEntry(K key) 返回map中键值不小于参数key的最小键值对应的键值对，如果没有则返回null
+public K ceilingKey(K key) 返回map中键值不小于参数key的最小键值
+public final boolean containsKey(Object key) 判断是否含有某一键值
+public boolean containsValue(Object value) 判断是否含有某一value
+public NavigableMap<K, V> descendingMap() 返回一个降序排列的Map
+public NavigableSet<K> descendingKeySet() 返回一个降序排列的由键名组成的Set
+public Set<Map.Entry<K,V>> entrySet() 返回由原Map的键值对组成的Set
+⭐⭐⭐⭐public K firstKey() 返回第一个key
+public Map.Entry<K,V> firstEntry() 返回第一个键值对
+public K floorKey(K key) 返回Map中不大于指定key的最大key值
+public Map.Entry<K,V> floorEntry(K key) 返回Map中不大于指定key的最大key值所对应的键值对
+public V get(Object key) 取出指定key对应的键值对
+public SortedMap<K,V> headMap(K toKey) 返回key小于指定key的排序好的Map
+public NavigableMap<K,V> headMap(K toKey, boolean inclusive) 返回key小于或小于等于指定key的排序好的Map
+public K higherKey(K key) 返回key严格大于指定key的最小键
+public Map.Entry<K,V> higherEntry(K key) 返回key严格大于指定key的最小键值对
+public Set<K> keySet() 返回由key组成的Set
+⭐⭐⭐⭐public K lastKey() 返回最后一个key
+public Map.Entry<K,V> lastEntry() 返回最后一组键值对
+public K lowerKey(K key) 返回key严格小于指定值的最大键
+public Map.Entry<K,V> lowerEntry(K key) 返回key严格小于指定值的最大键值对
+public NavigableMap<K,V> subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive) 返回key在指定范围内的子Map
+public SortedMap<K,V> subMap(K fromKey, K toKey) 返回key在指定范围内的子Map
+public NavigableMap<K,V> tailMap(K fromKey, boolean inclusive) 返回key小于或小于等于指定key的排序好的Map
+public SortedMap<K,V> tailMap(K fromKey) 返回key大于指定key的排序好的Map
+改
+
+⭐⭐⭐⭐public V replace(K key, V value) 修改一对键值对
+public boolean replace(K key, V oldValue, V newValue) 如果键值对的原值为指定值，则修改，否则不修改
+public void replaceAll(BiFunction<? super K, ? super V, ? extends V> function) 按照指定函数运算修改所有键值对
+其他
+
+public Object clone() 克隆TreeMap
+public Comparator<? super K> comparator() 返回该TreeMap的比较器
