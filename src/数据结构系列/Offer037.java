@@ -13,9 +13,10 @@ public class Offer037 {
         Iterator<Map.Entry<Integer,Integer>> iterator = map.entrySet().iterator();
         Map.Entry entry = iterator.next();
         //System.out.println(asteroidCollision(new int[]{-2,-2,1,-2}));
-        发文件发颇为
-                热望热望其二
-                额外热切而且我
+    }
+
+    public void test1(){
+
     }
 
     public int[] asteroidCollision(int[] asteroids) {
