@@ -1,0 +1,15 @@
+
+
+map.putIfAbsent(1,new ArrayList<>());  //如果没有key=1的映射就加，如果有就不加
+
+
+
+LinkedHashSet:内部的元素是有序的，能够保证通过迭代器访问其元素时，先加入的元素会排在前面；
+一般通过迭代器访问内部元素： Iterator i = LinkedHashSet.iterator();
+或者：        for(Integer i : set){
+               System.out.println(i);
+           }
+
+
+LinkedHashMap:内部元素也是有序的，越先插入的元素越在前面，LinkedHashMap默认是按照插入顺序来排序的，
+new LinkedHashMap(10,0.75,true)    也可以按照访问顺序排序：当get()某一个key的时候，相当于更新了其位置，将其放在后面
