@@ -15,10 +15,6 @@ public class Offer037 {
         //System.out.println(asteroidCollision(new int[]{-2,-2,1,-2}));
     }
 
-    public void test1(){
-
-    }
-
     public int[] asteroidCollision(int[] asteroids) {
         Deque<Integer> stack = new LinkedList<>();
         for(int i = 0;i<asteroids.length;i++){
