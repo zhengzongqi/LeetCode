@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21084f84-67cf-4831-bcf7-a28dc4be9250" name="默认的" comment="默认的">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/数据结构系列/Offer037.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数据结构系列/Offer037.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -2402,12 +2403,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/数据结构系列/Offer037.java</url>
-          <line>22</line>
+          <line>19</line>
           <option name="timeStamp" value="1568" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/数据结构系列/Offer037.java</url>
-          <line>21</line>
+          <line>18</line>
           <option name="timeStamp" value="1569" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
