@@ -15,6 +15,13 @@ public class Offer037 {
         //System.out.println(asteroidCollision(new int[]{-2,-2,1,-2}));
     }
 
+    public void test1(){
+                Map<Integer,Integer> map = new HashMap<>();
+        Iterator<Map.Entry<Integer,Integer>> iterator = map.entrySet().iterator();
+        Map.Entry entry = iterator.next();
+        //System.out.println(asteroidCollision(new int[]{-2,-2,1,-2}));
+    }
+    
     public int[] asteroidCollision(int[] asteroids) {
         Deque<Integer> stack = new LinkedList<>();
         for(int i = 0;i<asteroids.length;i++){
