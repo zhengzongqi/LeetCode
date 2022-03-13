@@ -2,51 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21084f84-67cf-4831-bcf7-a28dc4be9250" name="默认的" comment="默认的">
-      <change afterPath="$PROJECT_DIR$/src/BFS/T838.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS/T2049.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/其他/Offer091.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/其他/Offer44.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/其他/Offer56.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/其他/T14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/其他/T48.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/其他/T50.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/其他/前缀和/T560.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/其他/排序/Offer45.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/动态规划/Offer47.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/动态规划/Offer60.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/动态规划/T123.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/回溯法/Offer46.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/数据结构系列/Offer037.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/数据结构系列/Offer31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/数据结构系列/二叉树/Offer26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/数据结构系列/二叉树/Offer32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/数据结构系列/二叉树/Offer33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/数据结构系列/二叉树/Offer34.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/数据结构系列/二叉树/T230.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/数据结构系列/二叉树/面试题32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/数据结构系列/堆/Offer49.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/数据结构系列/堆/T215.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/滑动窗口算法/Offer008.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/笔试题/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/笔试题/T360_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/笔试题/携程1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/笔试题/携程2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/笔试题/携程3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/笔试题/携程4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/笔试题/携程4测试.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/笔试题/美团1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/笔试题/美团2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/STL/Map.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/STL/数组.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/STL/数组.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/动态规划/T343.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/动态规划/T343.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/双指针法/T15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/双指针法/T15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/STL/Map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/STL/Map和Set.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/STL/数组.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/STL/数组.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/动态规划/T343.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/T343.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/双指针法/T15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/双指针法/T15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数据结构系列/Offer037.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数据结构系列/Offer037.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -2446,12 +2402,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/数据结构系列/Offer037.java</url>
-          <line>21</line>
+          <line>22</line>
           <option name="timeStamp" value="1568" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/数据结构系列/Offer037.java</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="1569" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">

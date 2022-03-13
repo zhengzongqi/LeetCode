@@ -13,7 +13,9 @@ public class Offer037 {
         Iterator<Map.Entry<Integer,Integer>> iterator = map.entrySet().iterator();
         Map.Entry entry = iterator.next();
 
-        ConcurrentHashMap
+        ConcurrentHashMapsdsds
+                dsdsdsre
+                eee
         //System.out.println(asteroidCollision(new int[]{-2,-2,1,-2}));
     }
 
