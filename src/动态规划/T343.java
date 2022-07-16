@@ -6,7 +6,7 @@ public class T343 {
 
     @Test
     public void test(){
-        System.out.println(integerBreak(2));
+        System.out.println(integerBreak(4));
     }
 
     public int integerBreak(int n) {

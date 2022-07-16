@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21084f84-67cf-4831-bcf7-a28dc4be9250" name="默认的" comment="默认的">
-      <change afterPath="$PROJECT_DIR$/src/jinshang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/贝壳2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/贝壳3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数据结构系列/Offer037.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数据结构系列/Offer037.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +42,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IDEA_Project/javaweb-01-maven" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.25314465" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.广联达">
+  <component name="RunManager" selected="JUnit.Offer037.test">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -66,62 +63,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="广联达" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="广联达" />
+    <configuration name="Offer008.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="微众2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="微众2" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="百度2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="百度2" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="阿里2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="阿里2" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="百度3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="百度3" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="滴滴" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="滴滴" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="腾讯音乐1.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="腾讯音乐1" />
-      <option name="METHOD_NAME" value="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="滑动窗口算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="滑动窗口算法" />
+      <option name="MAIN_CLASS_NAME" value="滑动窗口算法.Offer008" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="微众2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Offer037.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="微众2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="数据结构系列.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="数据结构系列" />
+      <option name="MAIN_CLASS_NAME" value="数据结构系列.Offer037" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Offer091.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="其他.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="其他" />
+      <option name="MAIN_CLASS_NAME" value="其他.Offer091" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Offer44.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="其他.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="其他" />
+      <option name="MAIN_CLASS_NAME" value="其他.Offer44" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T14.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="其他.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="其他" />
+      <option name="MAIN_CLASS_NAME" value="其他.T14" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -130,10 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.广联达" />
-        <item itemvalue="Application.百度3" />
-        <item itemvalue="Application.微众2" />
-        <item itemvalue="JUnit.腾讯音乐1.main" />
+        <item itemvalue="JUnit.Offer037.test" />
+        <item itemvalue="JUnit.Offer091.test" />
+        <item itemvalue="JUnit.T14.test" />
+        <item itemvalue="JUnit.Offer44.test" />
+        <item itemvalue="JUnit.Offer008.test" />
       </list>
     </recent_temporary>
   </component>
@@ -236,20 +252,12 @@
       <workItem from="1644299025650" duration="1002000" />
       <workItem from="1644429149569" duration="632000" />
       <workItem from="1645087462159" duration="1204000" />
-      <workItem from="1646563614401" duration="699000" />
-      <workItem from="1646564910140" duration="628000" />
-      <workItem from="1646572472591" duration="560000" />
-      <workItem from="1647518737410" duration="7771000" />
-      <workItem from="1647861877088" duration="5485000" />
-      <workItem from="1648171983994" duration="3910000" />
-      <workItem from="1648364492530" duration="5932000" />
-      <workItem from="1649329368756" duration="5417000" />
-      <workItem from="1649674681251" duration="5580000" />
-      <workItem from="1649762908319" duration="5387000" />
-      <workItem from="1650462971720" duration="208000" />
-      <workItem from="1654947702687" duration="1397000" />
-      <workItem from="1655694694497" duration="650000" />
-      <workItem from="1657954396316" duration="799000" />
+      <workItem from="1645367655967" duration="30854000" />
+      <workItem from="1645796653865" duration="706000" />
+      <workItem from="1645858675211" duration="1194000" />
+      <workItem from="1646186642617" duration="52000" />
+      <workItem from="1646290746254" duration="32845000" />
+      <workItem from="1646566091894" duration="37628000" />
     </task>
     <servers />
   </component>
@@ -267,6 +275,73 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1646359420009">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1646359420009" />
+    <state x="2637" y="89" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1645452086450">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2637" y="89" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1645452086450" />
+    <state width="409" height="466" key="DebuggerActiveHint" timestamp="1647002078907">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="409" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1647002078907" />
+    <state x="1130" y="261" key="FileChooserDialogImpl" timestamp="1645796769599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1130" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1645796769599" />
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1647089566333">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1646975734628" />
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1647089566333" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1647089566333">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1646975734628" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1647089566333" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1647089566332">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1646975734628" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1647089566332" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1647089566333">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1646975734628" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1647089566333" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1647010417432">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1646975706894" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1647010417432" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1647010417432">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1646975706894" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1647010417432" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1647010417432">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1646975706893" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1647010417432" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1647010417432">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1646975706894" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1647010417432" />
+    <state x="881" y="181" key="new project wizard" timestamp="1645796771163">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="881" y="181" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1645796771163" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1646914542158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1646914542158" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1646445886927" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -953,92 +1028,92 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>55</line>
+          <line>54</line>
           <option name="timeStamp" value="646" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>56</line>
+          <line>55</line>
           <option name="timeStamp" value="647" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>57</line>
+          <line>56</line>
           <option name="timeStamp" value="648" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>58</line>
+          <line>57</line>
           <option name="timeStamp" value="649" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>59</line>
+          <line>58</line>
           <option name="timeStamp" value="650" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>64</line>
+          <line>63</line>
           <option name="timeStamp" value="654" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>69</line>
+          <line>68</line>
           <option name="timeStamp" value="655" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>52</line>
+          <line>51</line>
           <option name="timeStamp" value="661" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>53</line>
+          <line>52</line>
           <option name="timeStamp" value="662" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>54</line>
+          <line>53</line>
           <option name="timeStamp" value="663" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>70</line>
+          <line>69</line>
           <option name="timeStamp" value="665" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>71</line>
+          <line>70</line>
           <option name="timeStamp" value="666" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>76</line>
+          <line>75</line>
           <option name="timeStamp" value="667" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>77</line>
+          <line>76</line>
           <option name="timeStamp" value="668" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>81</line>
+          <line>80</line>
           <option name="timeStamp" value="672" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>75</line>
+          <line>74</line>
           <option name="timeStamp" value="673" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>66</line>
+          <line>65</line>
           <option name="timeStamp" value="674" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/双指针法/T15.java</url>
-          <line>67</line>
+          <line>66</line>
           <option name="timeStamp" value="675" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -2032,16 +2107,6 @@
           <option name="timeStamp" value="1345" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/动态规划/T343.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="1361" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/动态规划/T343.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="1362" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/数据结构系列/T71.java</url>
           <line>15</line>
           <option name="timeStamp" value="1363" />
@@ -2207,129 +2272,157 @@
           <option name="timeStamp" value="1439" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1440" />
+          <url>jar://$PROJECT_DIR$/../../java/jdk1.8.0_301/src.zip!/java/util/ArrayList.java</url>
+          <line>232</line>
+          <option name="timeStamp" value="1449" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="1441" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1448" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/贝壳2.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1451" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/贝壳3.java</url>
-          <line>3</line>
+          <url>file://$PROJECT_DIR$/src/BFS/T838.java</url>
+          <line>31</line>
           <option name="timeStamp" value="1452" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/阿里2.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1453" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/阿里2.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="1456" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/阿里2.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="1457" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/网易3.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="1458" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/腾讯音乐2.java</url>
-          <line>19</line>
+          <url>file://$PROJECT_DIR$/src/动态规划/T343.java</url>
+          <line>12</line>
           <option name="timeStamp" value="1459" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/腾讯音乐2.java</url>
+          <url>file://$PROJECT_DIR$/src/数据结构系列/二叉树/Offer33.java</url>
           <line>16</line>
           <option name="timeStamp" value="1460" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/腾讯音乐2.java</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/src/数据结构系列/二叉树/Offer33.java</url>
+          <line>36</line>
           <option name="timeStamp" value="1461" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/腾讯音乐1.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1464" />
+          <url>file://$PROJECT_DIR$/src/数据结构系列/Offer31.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1463" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/百度3.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="1469" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/百度3.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="1470" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/百度2.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="1471" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/百度2.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1472" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/广联达.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1473" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/滴滴.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="1474" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/滴滴.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="1475" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/滴滴.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1476" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/滴滴.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1477" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/滴滴.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="1478" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/滴滴.java</url>
-          <line>13</line>
+          <url>file://$PROJECT_DIR$/src/其他/T48.java</url>
+          <line>15</line>
           <option name="timeStamp" value="1479" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/其他/T48.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1481" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/其他/T48.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1482" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/笔试题/美团1.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1519" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/笔试题/美团1.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1520" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/笔试题/美团1.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1521" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/笔试题/美团1.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1522" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/笔试题/T360_2.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1523" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/回溯法/Offer46.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1530" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/动态规划/Offer60.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1531" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/动态规划/Offer60.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1532" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/动态规划/T123.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1533" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/笔试题/携程3.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1537" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/笔试题/携程4测试.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1540" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/笔试题/携程4测试.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1541" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DFS/T2049.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="1550" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/其他/Offer44.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1559" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/其他/Offer44.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1560" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/其他/Offer44.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1561" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/其他/Offer091.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1567" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/数据结构系列/Offer037.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1568" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/数据结构系列/Offer037.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1569" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NumberFormatException" package="java.lang" />
           <option name="timeStamp" value="1420" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/其他/Offer091.java</url>
+          <line>28</line>
+          <properties class="其他.Offer091">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1566" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -2340,11 +2433,11 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LeetCode$T475_test.ic" NAME="T475.test Coverage Results" MODIFIED="1640154124394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>其他.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/LeetCode$T1218_test.ic" NAME="T1218.test Coverage Results" MODIFIED="1636089810755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>动态规划.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LeetCode$T475_test.ic" NAME="T475.test Coverage Results" MODIFIED="1640154124394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>其他.*</FILTER>
     </SUITE>
   </component>
 </project>

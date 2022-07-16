@@ -14,7 +14,6 @@ public class T15 {
 
     //双指针(实际上还是三重循环)
     public List<List<Integer>> threeSum(int[] nums) {
-
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         Arrays.sort(nums);
         int len = nums.length;

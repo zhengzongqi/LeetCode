@@ -1,8 +1,0 @@
-String s;
-s = s.replace("A","B")             将s中所有的A换成B
-s = s.toUpperCase();               s所有英文字符换成大写
-s = s.toLowerCase();               s所有英文字符换成小写
-s.insert(5, 'a');                  //给指定下标位置前的值赋新值
-s = s.substring(a, b)              截取s从下标0到i-1的字符
-
-使用String.toCharArray()（返回值为char[]）可以得到将包含整个String的char数组。这样我们就能够使用从0开始的位置索引来访问string中的任意位置的元素。

@@ -1,3 +1,0 @@
-
-
-map.putIfAbsent(1,new ArrayList<>());  //如果没有key=1的映射就加，如果有就不加
