@@ -1,59 +1,57 @@
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.concurrent.*;
-import java.util.concurrent.locks.ReentrantLock;
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.LinkedBlockingDeque;
 
 public class test {
-    static volatile Integer suo = 0;
 
-    public static void main(String[] args) throws Exception{
-        ThreadPoolExecutor poolExecutor = new ThreadPoolExecutor(5,10,0, TimeUnit.SECONDS,new ArrayBlockingQueue<>(20));
-        Future future = poolExecutor.submit(new c());
+    public interface A{
+        void e();
+    }
+
+    public class dd implements A{
+        @Override
+        public void e(){}
+    }
+
+    @Test
+    public void a(){
 
     }
 
-    static class a implements Runnable{
-
-        @Override
-        public void run() {
-            try {
-                synchronized (suo){
-                    System.out.println("a进来了");
-                    Thread.sleep(2000);
-                    System.out.println("a结束了");
-                }
-            } catch (Exception e) {
-                e.printStackTrace();
+    void print(int v){
+        if(v!=0){
+            for(int i = 1;i<=v;i++){
+                System.out.print(v);
             }
-        }
-    }
-    static class b implements Runnable{
-
-        @Override
-        public void run() {
-            try {
-                synchronized (suo){
-                    System.out.println("b进来了");
-                    System.out.println("b结束了");
-                    suo.notify();
-                }
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-    }
-
-    static class c implements Callable{
-
-        @Override
-        public Object call() throws Exception {
-            Thread.sleep(1000);
-            return 123;
+            print(v-1);
         }
     }
 
 
+
+    public class Forest implements Serializable {
+        private Tree tree = new Tree();
+    }
+    class Tree{
+
+    }
+
+    public class Base implements Serializable{
+        public Base(){
+            System.out.println("test");
+        }
+    }
 }
+
+
+
+
+
+
+

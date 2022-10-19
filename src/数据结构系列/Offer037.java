@@ -5,23 +5,26 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.Future;
+import java.util.concurrent.FutureTask;
+import java.util.concurrent.Semaphore;
 
 public class Offer037 {
     @Test
     public void test(){
-        Map<Integer,Integer> map = new HashMap<>();
-        Iterator<Map.Entry<Integer,Integer>> iterator = map.entrySet().iterator();
-        Map.Entry entry = iterator.next();
+
         //System.out.println(asteroidCollision(new int[]{-2,-2,1,-2}));
     }
 
-    public void test1(){
+
+    public int test(int a){
                 Map<Integer,Integer> map = new HashMap<>();
         Iterator<Map.Entry<Integer,Integer>> iterator = map.entrySet().iterator();
         Map.Entry entry = iterator.next();
         //System.out.println(asteroidCollision(new int[]{-2,-2,1,-2}));
+        return 1;
     }
-    
+
     public int[] asteroidCollision(int[] asteroids) {
         Deque<Integer> stack = new LinkedList<>();
         for(int i = 0;i<asteroids.length;i++){
